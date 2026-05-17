@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: ghcr.io/your-github-username/argo-practice-app:initial # GH Actions will overwrite this
+        image: ghcr.io/bmk3263/argo-practice-app:initial # GH Actions will overwrite this
         ports:
         - containerPort: 8080
 ---
