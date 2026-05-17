@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: ghcr.io/bmk3263/argo-practice-app:acd54bf
+        image: ghcr.io/bmk3263/argo-practice-app:f0cb7ba
         ports:
         - containerPort: 8080
 ---
